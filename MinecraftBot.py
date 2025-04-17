@@ -20,7 +20,7 @@ def server_status():
     #details of server
     print("verificando el estado del servidor")
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36'} 
-    response = requests.get(f"https://api.mcsrvstat.us/2/{address}", headers=headers)
+    response = requests.get(f"https://api.mcsrvstat.us/2/laforjadelosdioses.serveminecraft.net", headers=headers)
     data = response.json()  
     print(data)
     online = data['online']
