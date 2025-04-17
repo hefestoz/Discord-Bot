@@ -100,7 +100,7 @@ async def start(ctx):
     else:
         try:
             res = requests.post(
-                "http://b989-152-201-241-31.ngrok-free.app/run",
+                "http://initially-precise-pangolin.ngrok-free.app/run",
                 headers={"Authorization": "listenerToken"},
             )
 
